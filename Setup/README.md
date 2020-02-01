@@ -8,7 +8,7 @@ descargar el archivo de instalacion del siguiente lugar.
 es importante bajar el SDK Core , por que **vamos a programar**.
 
 La pagina se ve asi:
-![sadsa](./img/1)
+![sadsa](./img/1.PNG)
 
 ## Instalación y configuración de Visual Studio Code para C#.
 
