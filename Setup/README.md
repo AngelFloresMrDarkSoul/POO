@@ -11,6 +11,15 @@ La pagina se ve asi:
 ![sadsa](./img/1.PNG)
 
 ## Instalación y configuración de Visual Studio Code para C#.
+Primero tenemos la imagen que es donde se descargara el programa 
+![sadsa](./img/1.11.PNG)
 
+![sadsa](./img/2.PNG)
+![sadsa](./img/3.PNG)
+![sadsa](./img/4.PNG)
+![sadsa](./img/5.PNG)
+![sadsa](./img/6.PNG)
+![sadsa](./img/7.PNG)
+![sadsa](./img/8.PNG)
 
 ## Instalación de git. conectado a tu cuenta de GitHub y VSC.
