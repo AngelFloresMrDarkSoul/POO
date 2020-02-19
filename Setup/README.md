@@ -77,3 +77,15 @@ Paso 5. Le damos a Close y listo otro trabajo bien hecho
 Paso 1. Le damos en descargar y esta listo
 
 ![sadsa](./img/14.png)
+
+Paso 2. lo buscamos en nuestro escritorio
+
+![sadsa](./img/15.PNG)
+
+Paso 3. ingresamos cuenta 
+
+![sadsa](./img/16.PNG)
+
+Paso 4 Y 5. Ledamos en Repository y luego en donde lo queremos abrir y listo
+
+![sadsa](./img/17.png)
