@@ -11,6 +11,11 @@ La pagina se ve asi:
 ![sadsa](./img/1.PNG)
 
 ## Instalación y configuración de Visual Studio Code para C#.
+
+Link Para Descargar el Visual Code
+
+[Lugar] (https://code.visualstudio.com)
+
 paso 1. Primero tenemos la imagen que es donde se descargara el programa 
 ![sadsa](./img/1.11.png)
 
@@ -42,7 +47,9 @@ Paso 8. Y finalizar wiiiii
 
 ![sadsa](./img/8.png)
 
-## Instalación de git. conectado a tu cuenta de GitHub y VSC.
+## Instalación del Netcore
+
+[Lugar]
 
 Paso 1. Primero buscamos el programa acto seguido le damos en descargar 
 
@@ -65,7 +72,7 @@ Paso 5. Le damos a Close y listo otro trabajo bien hecho
 ![sadsa](./img/13.png)
 
 
-## Instalacion del Github
+## Instalación de git. conectado a tu cuenta de GitHub y VSC.
 
 Paso 1. Le damos en descargar y esta listo
 
