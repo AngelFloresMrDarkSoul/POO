@@ -84,7 +84,7 @@ Paso 2. lo buscamos en nuestro escritorio
 
 Paso 3. ingresamos cuenta 
 
-![sadsa](./img/17.PNG)
+![sadsa](./img/15.PNG)
 
 Paso 4 Y 5. Ledamos en Repository y luego en donde lo queremos abrir y listo
 
