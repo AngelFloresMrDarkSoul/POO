@@ -88,4 +88,4 @@ Paso 3. ingresamos cuenta
 
 Paso 4 Y 5. Ledamos en Repository y luego en donde lo queremos abrir y listo
 
-![sadsa](./img/17.png).
+![sadsa](./img/17.PNG).
