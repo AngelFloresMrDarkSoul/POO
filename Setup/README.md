@@ -22,24 +22,51 @@ Paso 3. Luego le damos siguiente de nuevo
 
 ![sadsa](./img/3.png)
 
-Paso 4.Siguiente...
+Paso 4. Siguiente...
 
 ![sadsa](./img/4.png)
 
-Paso 5.Aceptamos todo lo de las tareas adicionales y siguiente
+Paso 5. Aceptamos todo lo de las tareas adicionales y siguiente
 
 ![sadsa](./img/5.png)
 
-Paso 6.Le damos instalar
+Paso 6. Le damos instalar
 
 ![sadsa](./img/6.png)
 
-Paso 7.Se esta instalando espera pacientemente 
+Paso 7. Se esta instalando espera pacientemente 
 
 ![sadsa](./img/7.png)
 
-Paso 8.Y finalizar wiiiii
+Paso 8. Y finalizar wiiiii
 
 ![sadsa](./img/8.png)
 
 ## Instalación de git. conectado a tu cuenta de GitHub y VSC.
+
+Paso 1. Primero buscamos el programa acto seguido le damos en descargar 
+
+![sadsa](./img/9.png)
+
+Paso 2. Le damos a ejecutar
+
+![sadsa](./img/10.png)
+
+Paso 3. Le damos a install
+
+![sadsa](./img/11.png)
+
+Paso 4. Esperamos pacientemente de nuevo...
+
+![sadsa](./img/12.png)
+
+Paso 5. Le damos a Close y listo otro trabajo bien hecho
+
+![sadsa](./img/13.png)
+
+
+## Instalacion del Github
+
+Paso 1. Le damos en descargar y esta listo
+
+![sadsa](./img/14.png)
