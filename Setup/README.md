@@ -78,7 +78,7 @@ Paso 1. Le damos en descargar y esta listo
 
 ![sadsa](./img/14.png)
 
-Paso 3. ingresamos cuenta 
+Paso 2. ingresamos cuenta 
 Ledamos en Repository y luego en donde lo queremos abrir y listo
 
 ![sadsa](./img/16.PNG)
