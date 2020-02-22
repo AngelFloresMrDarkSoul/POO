@@ -6,13 +6,9 @@ namespace Pelicula
         {
         //creacion de atributos
         public string Titulo;
-        public int16 Año;
+        public Int16 Año;
         public string Pais;
         public string Director;
-
-
-
-
         //se crean los metodos
         public void setTitulo (string Titulo)
         {
@@ -23,11 +19,11 @@ namespace Pelicula
             return this.Titulo;
         }
         //Se crea el metodo Año
-          public void setAño (int16 Año)
+          public void setAño (Int16 Año)
         {
             this.Año=Año;
         }
-        public int16 getAño ()
+        public int getAño ()
         {
             return this.Año;
         }
@@ -49,13 +45,11 @@ namespace Pelicula
         {
             return this.Director;
         }
-        public Peli(string T, Int16 A)
+        public pelicula(string T, Int16 A)
         {
           this.Titulo=T;
           this.Año=A;
         }
-
-
          public void Imprime()
         {
             Console.WriteLine("{0}({1})",this.getTitulo(),this.getAño());
@@ -67,8 +61,8 @@ namespace Pelicula
         static void Main(string[] args)
         {
             //se crean objetos
-            pelicula p1=new pelicula();
-            pelicula p2=new pelicula();
+            pelicula P1=new pelicula();
+            pelicula P2=new pelicula();
 
 
 
