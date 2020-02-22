@@ -45,11 +45,7 @@ namespace Pelicula
         {
             return this.Director;
         }
-        public pelicula(string T, Int16 A)
-        {
-          this.Titulo=T;
-          this.Año=A;
-        }
+        
          public void Imprime()
         {
             Console.WriteLine("{0}({1})",this.getTitulo(),this.getAño());
@@ -61,8 +57,8 @@ namespace Pelicula
         static void Main(string[] args)
         {
             //se crean objetos
-            pelicula P1=new pelicula();
-            pelicula P2=new pelicula();
+            pelicula P1 = new pelicula();
+            pelicula P2 = new pelicula();
 
 
 
