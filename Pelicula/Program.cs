@@ -58,7 +58,7 @@ namespace Pelicula
             pelicula p1=new pelicula();
             pelicula p2=new pelicula();
 
-            P1.setTitulo("Green book")
+            P1.setTitulo("Green boo")
             P1.
         }
     }
