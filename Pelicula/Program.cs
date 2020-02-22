@@ -65,24 +65,24 @@ namespace Pelicula
 
             P1.setTitulo("Parasitos");
             P1.setAño(2020);
-            Console.WriteLine("{0}({1})","La Pelicula ganadora al oscar: "+ P1.getTitulo(), P1.getAño());
             P1.Titulo="Parasitos";
             P1.Año=2020;
             P1.Pais="Estados Unidos";
             P1.Director="Bong Joon-ho";
-            Console.WriteLine( "Pelicula Ganadora del Oscar: "+ P1.Titulo +"\nAño: " +P1.Año );
+            Console.WriteLine( "Pelicula Ganadora del Oscar: "+ P1.Titulo +"\nAño: " +P1.Año + "\nPais: : " + P1.Pais +"\nDirector:" + P1.Director);
 
 
+            Console.WriteLine();
+            Console.WriteLine();
 
-
+            
             P2.setTitulo("Green book");
             P2.setAño(2019);
-            Console.WriteLine("{0}({1})","La Pelicula ganadora al oscar: "+ P2.getTitulo(), P2.getAño());
             P2.Titulo="Green book";
             P2.Año=2019;
             P2.Pais="Estados Unidos";
             P2.Director="Peter Farrelly";
-            Console.WriteLine( "Pelicula Ganadora del Oscar: "+ P2.Titulo +"\nAño: " +P2.Año );
+            Console.WriteLine( "Pelicula Ganadora del Oscar: "+ P2.Titulo +"\nAño: " +P2.Año + "\nPais: : " + P2.Pais +"\nDirector:" + P2.Director );
 
         }
     }
