@@ -58,13 +58,11 @@ namespace Pelicula
             Console.WriteLine("{0}({1})",this.getTitulo(),this.getAño());
         }
     }
-
-
     class Program
     {
         static void Main(string[] args)
         {
-            //se crean objetos
+             //se crean objetos
             pelicula p1=new pelicula();
             pelicula p2=new pelicula();
 
@@ -87,6 +85,7 @@ namespace Pelicula
             P2.Pais="Estados Unidos";
             P2.Director="Peter Farrelly";
             Console.WriteLine( "Pelicula Ganadora del Oscar: "+ P2.Titulo +"\nAño: " +P2.Año );
+            
         }
     }
 }
