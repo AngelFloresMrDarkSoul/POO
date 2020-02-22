@@ -47,6 +47,16 @@ namespace Pelicula
         {
             return this.Director;
         }
+        public Peli(string T, Int16 A)
+        {
+          this.Titulo=T;
+          this.Año=A;
+        }
+
+         public void Imprime()
+        {
+            Console.WriteLine("{0}({1})",this.getTitulo(),this.getAño());
+        }
     }
 
 
@@ -57,9 +67,14 @@ namespace Pelicula
             //se crean objetos
             pelicula p1=new pelicula();
             pelicula p2=new pelicula();
-
-            P1.setTitulo("Green boo")
-            P1.
+            P1.setTitulo("Parasitos");
+            P1.setAño(2020);
+            Console.WriteLine("{0}({1})","La Pelicula ganadora al oscar: "+ P1.getTitulo(), P1.getAño());
+            P1.Titulo="Parasitos";
+            P1.Año=2020;
+            P1.Pais="Estados Unidos";
+            P1.Director="Bong Joon-ho";
+            Console.WriteLine( "Pelicula Ganadora del Oscar: "+ P1.Titulo +"\nAño: " +P1.Año );
         }
     }
 }
