@@ -83,3 +83,5 @@ Ledamos en Repository y luego en donde lo queremos abrir y listo
 
 ![sadsa](./img/16.PNG)
 
+## Ejercicio de UML.
+![sadsa](./img/56.png)
