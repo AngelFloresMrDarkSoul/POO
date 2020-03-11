@@ -1,1 +1,1 @@
-![sadsa](./card/4.png)
+![sadsa](./img/card.png)
