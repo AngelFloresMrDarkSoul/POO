@@ -9,5 +9,5 @@ Sin contar que sera el lugar donde guardare los demas
 
 [Actividad 2](./Pelicula/Program.cs)
 
-[Actividad 3](./TrabajosUML/Program.cs)
+[Actividad 3](./Actores/Program.cs)
 
