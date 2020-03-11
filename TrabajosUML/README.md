@@ -1,1 +1,1 @@
-![sadsa](./img/card.png)
+![sadsa](./TrabajosUML/card.png)
