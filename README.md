@@ -11,3 +11,6 @@ Sin contar que sera el lugar donde guardare los demas
 
 [Actividad 3](./Actores/Program.cs)
 
+[Actividad 4](./Domino/Program.cs)
+
+[Actividad 5](./Duracion/Program.cs)
