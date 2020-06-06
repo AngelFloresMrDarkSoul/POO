@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq; 
 
 namespace Proyecto5y6
 {
@@ -128,7 +131,7 @@ namespace Proyecto5y6
 			}
 		}
 	}
-    
+
     class Program
     {
         static void Main(string[] args)
