@@ -136,9 +136,9 @@ public static List<Producto> ReadFromBIN(String path)
             productos.Add(new Producto("Edf51", "Laptop con pantalla LCD", 22200.23d, "Computacion", 68));
             productos.Add(new Producto("Psda9", "Multimetro", 500.36d, "Electricidad", 2));
 
-            //Metodos de escritura TXT
+            //Metodos de escritura TXT si repites este texto se repite el resultado
             productoDB.WriteToTXT("productos.txt", productos);
-
+            
 
                 //Metdos escritura BIN
                 productoDB.WriteToBIN("productos.dat", productos);
