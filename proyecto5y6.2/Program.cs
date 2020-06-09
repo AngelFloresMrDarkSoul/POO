@@ -16,17 +16,14 @@ namespace proyecto5y6._2
         public Producto(string c, string d, double p, string m, int l){
             codigo = c; descripcion = d; precio = p; departamento = m; likes = l;
         }
-        public Producto()
-        {
-        }
-        
+       
     }
     class productoDB
     {
         
 
         //Escribir producto TXT
-        public static void EscribeProductosTXT(string archivo, List<Producto> productos)
+        public static void WriteToTXT(string archivo, List<Producto> productos)
         {
             try
             {
@@ -46,8 +43,14 @@ namespace proyecto5y6._2
         }
 
         
+
+
+
+
+
+
         //Leer producto TXT
-        public void LeerProductosTXT(string archivo, List<Producto> productos)
+        public void ReadFromTXT(string archivo, List<Producto> productos)
         {
 			try
 			{			
@@ -69,12 +72,13 @@ namespace proyecto5y6._2
 
 
         //Binary
-        public void EscribeProductosBIN(string archivo){
+        public void WriteToBIN(string archivo){
 			try
 			{
 				FileStream fs=new FileStream(archivo, FileMode.OpenOrCreate, FileAccess.Write);
 				using(BinaryWriter binOut = new BinaryWriter(fs)){
-					foreach(Producto p in productos){
+                    IEnumerable<Producto> producto = null;
+                    foreach (Producto p in producto ){
 						binOut.Write(p.codigo);
 						binOut.Write(p.descripcion);
 						binOut.Write(p.precio);
@@ -90,6 +94,11 @@ namespace proyecto5y6._2
   
  
      }
+
+        internal static void WriteToBIN(string v, List<Producto> productos)
+        {
+            throw new NotImplementedException();
+        }
     }
     class Program
     {
@@ -103,11 +112,11 @@ namespace proyecto5y6._2
             productos.Add(new Producto("Psda9", "Multimetro", 500.36d, "Electricidad", 2));
 
             //Metodos de escritura TXT
-            productoDB.EscribeProductosTXT("productos.txt", productos);
-            productoDB.EscribeProductosTXT("productos.txt", productos);
+            productoDB.WriteToTXT("productos.txt", productos);
+            productoDB.WriteToTXT("productos.txt", productos);
 
-            //Metdos escritura BIN
-            productoDB.EscribeProductosBIN("productos.bin", productos);
+           //Metdos escritura BIN
+            productoDB.WriteToBIN("productos.bin",productos);
         }
     }
  }
