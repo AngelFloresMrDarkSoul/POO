@@ -93,11 +93,7 @@ namespace proyecto5y6._2
             }
     }
 
-        internal static void WriteToBIN(string v, List<Producto> productos)
-        {
-            throw new NotImplementedException();
-        }
-    }
+      
      
     class Program
     {
@@ -118,7 +114,5 @@ namespace proyecto5y6._2
             productoDB.WriteToBIN("productos.bin", productos);
         }
     }
-    
     }
-
-    
+    }
