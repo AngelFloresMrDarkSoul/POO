@@ -17,6 +17,14 @@ namespace proyecto5y6._2
             codigo = c; descripcion = d; precio = p; departamento = m; likes = l;
         }
        
+       public Producto()
+        {
+        }
+
+        public static implicit operator Producto(productoDB v)
+        {
+            throw new NotImplementedException();
+        }
     }
     class productoDB
     {
@@ -24,7 +32,7 @@ namespace proyecto5y6._2
 
 
         //Escribir producto TXT
-        public static void WriteToTXT(string archivo, List<Producto> productos)
+        public static void WriteToTXT( string archivo, List<Producto> productos)
         {
             try
             {
@@ -73,7 +81,29 @@ namespace proyecto5y6._2
 
 
         //Binary
-      public void WriteToBIN(string archivo){
+     
+
+public static List<Producto> ReadFromBIN(String path)
+{
+    List<Producto> productos=new List<Producto>();
+      BinaryReader binIn=new BinaryReader(
+          new FileStream(path,FileMode.Open,FileAccess.Read));
+        
+        while  ( binIn.PeekChar() != -1)
+        {
+            Producto p = new Producto();
+            p.codigo=binIn.ReadString();
+            p.descripcion=binIn.ReadString();
+            
+            p.departamento=binIn.ReadString();
+            p.likes=binIn.ReadInt16();
+            productos.Add(p);
+        }
+        return productos;
+      }
+      
+       public void WriteToBIN(string archivo, List<Producto> productos)
+        {
 			try
 			{
 				FileStream fs=new FileStream(archivo, FileMode.OpenOrCreate, FileAccess.Write);
@@ -92,12 +122,12 @@ namespace proyecto5y6._2
                 Console.WriteLine(e.Message);
             }
     }
-
-      
      
     class Program
     {
-        static void Main(string[] args)
+
+
+            static void Main(string[] args)
         {
             
             List<Producto> productos = new List<Producto>();
@@ -110,8 +140,8 @@ namespace proyecto5y6._2
             productoDB.WriteToTXT("productos.txt", productos);
 
 
-            //Metdos escritura BIN
-            productoDB.WriteToBIN("productos.bin", productos);
+                //Metdos escritura BIN
+                productoDB.WriteToBIN("productos.dat", productos);
         }
     }
     }
