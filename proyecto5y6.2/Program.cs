@@ -20,7 +20,8 @@ namespace proyecto5y6._2
     }
     class productoDB
     {
-        
+        private IEnumerable<Producto> productos;
+
 
         //Escribir producto TXT
         public static void WriteToTXT(string archivo, List<Producto> productos)
@@ -72,13 +73,12 @@ namespace proyecto5y6._2
 
 
         //Binary
-        public void WriteToBIN(string archivo){
+      public void WriteToBIN(string archivo){
 			try
 			{
 				FileStream fs=new FileStream(archivo, FileMode.OpenOrCreate, FileAccess.Write);
 				using(BinaryWriter binOut = new BinaryWriter(fs)){
-                    IEnumerable<Producto> producto = null;
-                    foreach (Producto p in producto ){
+					foreach(Producto p in productos){
 						binOut.Write(p.codigo);
 						binOut.Write(p.descripcion);
 						binOut.Write(p.precio);
@@ -91,15 +91,14 @@ namespace proyecto5y6._2
                 Console.WriteLine("Hubo un error");
                 Console.WriteLine(e.Message);
             }
-  
- 
-     }
+    }
 
         internal static void WriteToBIN(string v, List<Producto> productos)
         {
             throw new NotImplementedException();
         }
     }
+     
     class Program
     {
         static void Main(string[] args)
@@ -113,11 +112,13 @@ namespace proyecto5y6._2
 
             //Metodos de escritura TXT
             productoDB.WriteToTXT("productos.txt", productos);
-            productoDB.WriteToTXT("productos.txt", productos);
 
-           //Metdos escritura BIN
-            productoDB.WriteToBIN("productos.bin",productos);
+
+            //Metdos escritura BIN
+            productoDB.WriteToBIN("productos.bin", productos);
         }
     }
- }
- 
+    
+    }
+
+    
