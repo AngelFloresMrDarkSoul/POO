@@ -21,11 +21,19 @@ namespace proyecto5y6._2
         {
         }
 
+
+
+
         public static implicit operator Producto(productoDB v)
         {
             throw new NotImplementedException();
         }
     }
+
+
+
+
+
     class productoDB
     {
         private IEnumerable<Producto> productos;
@@ -99,7 +107,7 @@ public static List<Producto> ReadFromBIN(String path)
             p.likes=binIn.ReadInt16();
             productos.Add(p);
         }
-        return productos;
+         return productos;
       }
       
        public void WriteToBIN(string archivo, List<Producto> productos)
@@ -125,8 +133,6 @@ public static List<Producto> ReadFromBIN(String path)
      
     class Program
     {
-
-
             static void Main(string[] args)
         {
             
@@ -138,10 +144,12 @@ public static List<Producto> ReadFromBIN(String path)
 
             //Metodos de escritura TXT si repites este texto se repite el resultado
             productoDB.WriteToTXT("productos.txt", productos);
-            
+
 
                 //Metdos escritura BIN
-                productoDB.WriteToBIN("productos.dat", productos);
+                
+                
+                
         }
     }
     }
